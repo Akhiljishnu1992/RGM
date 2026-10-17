@@ -1,0 +1,13 @@
+[project]
+name = "rgm-pricing-simulator"
+version = "1.0.0"
+description = "Price-change simulator for Revenue Growth Management: elasticity-driven volume and P&L by product hierarchy."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = [".", "tests"]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = [
+    "ignore:.*missing ScriptRunContext.*",
+]

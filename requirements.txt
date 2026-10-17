@@ -1,0 +1,6 @@
+# Tested with Python 3.13, streamlit 1.66, pandas 3.0 and 2.2, numpy 2.5, plotly 7.1.
+streamlit>=1.66,<2
+pandas>=2.2
+numpy>=1.26
+plotly>=5.20
+pytest>=8.0
